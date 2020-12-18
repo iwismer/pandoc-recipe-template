@@ -2,6 +2,8 @@
 
 This is a super simple recipe template for rendering recipes in YAML format.
 
+I got tired of my recipes folder being a mess of different file formats and recipe formats, so I created this to try and make everything uniform.
+
 # Examples
 
 There are examples for both the input YAML files and the resulting PDFs in the example folder.
@@ -35,6 +37,11 @@ In order to compile the recipes you need to have [Pandoc](https://pandoc.org/), 
 # Known issues
 
 The yaml input files cannot have spaces in their names. This is a result of using `make`. I'm sorry.
+
+# Contributing
+
+If you have an idea on how you think you can make this better, feel free to fork the repository and make changes.
+I'm also open to pull requests either to improve my template, or add additional templates.
 
 # License
 
