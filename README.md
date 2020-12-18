@@ -2,6 +2,10 @@
 
 This is a super simple recipe template for rendering recipes in YAML format.
 
+# Examples
+
+There are examples for both the input YAML files and the resulting PDFs in the example folder.
+
 # Using
 
 ## Input format
