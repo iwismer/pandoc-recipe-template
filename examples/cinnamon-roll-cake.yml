@@ -1,0 +1,58 @@
+---
+recipe_name: Cinnamon Roll Cake
+source: www.crunchycreamysweet.com
+times:
+ - name: Prep Time
+   amount: 15 minutes
+ - name: Oven Time
+   amount: 30 minutes
+ - name: Total Time
+   amount: 45 minutes
+oven_temp:
+  amount: 350
+  unit: F
+yields: 15 servings
+categories:
+  - Dessert
+  - Cake
+ingredients_split:
+  Cake:
+    - 3 cups all-purpose flour sifted
+    - 1/4 tsp salt
+    - 1 cup granulated sugar
+    - 4 tsp baking powder
+    - 1 and 1/2 cup milk
+    - 2 large eggs
+    - 2 tsp vanilla extract
+    - 1/2 cup unsalted butter melted, 1 stick
+  Cinnamon Filling:
+    - 1 cup unsalted butter softened to room temperature, 2 sticks
+    - 1 cup packed light brown sugar
+    - 2 Tbsp all-purpose flour
+    - 1 Tbsp ground cinnamon
+  Glaze:
+    - 2 cup powdered sugar sifted
+    - 5 Tbsp milk
+    - 1 teaspoon vanilla extract
+steps_split:
+  Cake:
+    - Grease a 9"x13" cake pan (or line it with parchment paper or aluminum foil and grease the sides and bottom). Set aside.
+    - Preheat the oven to 350 degrees F.
+    - In a large mixing bowl, whisk together flour, salt, sugar and baking powder.
+    - Add milk, eggs and vanilla and whisk until smooth.
+    - Slowly add the melted butter and whisk until everything is smooth.
+    - Spread the batter in the prepared pan. Set aside.
+    - In a medium mixing bowl, beat butter with electric mixer until creamy.
+    - Add sugar, flour and cinnamon and beat until fluffy, about 2 minutes. (It will look crumbly at first but keep beating, it will come together.)
+    - Spread the filling over the cake batter, leaving at least 1 inch of space from the edge of the pan. Swirl gently with a off-set icing spatula or a rubber spatula.
+    - Bake the cake for 28 to 32 minutes or until the toothpick inserted in the cake part comes out clean.
+    - Cool the cake for 15 minutes. Pour the glaze over the cake and spread evenly.
+  Glaze:
+    - Sift the powdered sugar over a medium mixing bowl.
+    - Add vanilla and milk and whisk together until smooth and drizzling consistency. Spread over still warm cake.
+
+notes: |
+  Keeps covered in room temperature for up to 3 days.
+
+  This cake in quite sweet, try reducing the amount of glaze, or the amount of sugar in the cake/filling.
+---

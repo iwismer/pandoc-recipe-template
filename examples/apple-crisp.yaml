@@ -1,0 +1,35 @@
+---
+recipe_name: Apple Crisp
+oven_temp:
+  amount: 350
+  unit: F
+times:
+ - name: Oven Time
+   amount: 40 minutes
+ - name: Prep Time
+   amount: 20 minutes
+ - name: Total Time
+   amount: 1 hour
+categories:
+  - Dessert
+  - Vegetarian
+  - Vegan
+yields: 9 Portions
+ingredients:
+  - Apples (peeled and cut up)
+  - 1 cup Oatmeal
+  - 3/4 cup Brown Sugar
+  - 1/2 cup Flour
+  - 1/2 tsp Cinnamon
+  - 1/2 cup Margarine or butter
+steps:
+  - Preheat oven to 350F.
+  - Mix together first four topping ingredients.
+  - Cut in butter/margarine.
+  - Peel and core apples. Cut into small slices.
+  - Put apples in an 8x8 inch pan.
+  - Put topping on top.
+  - Bake 40 minutes at 350F
+notes: |
+  This recipe can also be made with other fruits (like pears or peaches), just adjust the cooking time.
+---

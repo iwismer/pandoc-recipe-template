@@ -1,0 +1,30 @@
+---
+recipe_name: Chili
+source: Jean Pare - Microwave Cookbook
+times:
+ - name: Prep Time
+   amount: 10 minutes
+ - name: Cook Time
+   amount: 25 minutes
+ - name: Total Time
+   amount: 35 minutes
+categories:
+  - Mains
+ingredients:
+  - 1lb Ground Beef
+  - 1 cup Chopped Onion
+  - 1/2 cup Chopped Celery (optional)
+  - 14oz (398ml) can Stewed Tomatoes
+  - 14oz (398ml) can Kidney Beans
+  - 10oz (284ml) can Tomato Soup
+  - 2 tsp Chili Powder
+  - 1/2 tsp Salt
+  - 1/4 tsp Garlic Powder
+  - 1/8 tsp Pepper
+  - 1/8 tsp Oregano
+steps:
+  - Cook beef, onion and celery together in frying pan until beef is cooked through and onion is soft.
+  - Add beef mixture to 3L casserole dish along with remaining ingredients. Add additional seasoning to taste. Stir.
+  - Cover and cook on high (100%) until it starts to boil (about 9 minutes).
+  - Uncover and cook on medium (50%) for about 15 minutes to blend flavours and thicken slightly.
+---

@@ -1,0 +1,48 @@
+---
+recipe_name: Frosted Banana Cake
+source: Anne Butler
+times:
+ - name: Prep Time
+   amount: 20 minutes
+ - name: Oven Time
+   amount: 25 minutes
+ - name: Total Time
+   amount: 1 1/4 hours
+oven_temp:
+  amount: 350
+  unit: F
+categories:
+  - Dessert
+  - Vegetarian
+  - Cake
+ingredients_split:
+  Cake:
+    - 1/2 cup Butter (softened) or Margarine
+    - 1 1/2 cup Sugar
+    - 2 Eggs
+    - 1 cup Sour Creme
+    - 1 tsp Vanilla Extract
+    - 2 cups Flour
+    - 1 tsp Baking Soda
+    - 1/4 tsp Salt
+    - 2 Medium Ripe Bananas (about 1 cup mashed)
+  Frosting:
+    - 4oz Creme Cheese (softened)
+    - 1/4 cup Butter (softened) or Margarine
+    - 1 tbsp Vanilla Extract
+    - 1 3/4 - 2 cups Icing Sugar
+steps_split:
+  Cake:
+    - Preheat oven to 350F.
+    - In a mixing bowl, cream butter and sugar. Add eggs, sour creme and vanilla.
+    - Combine flour baking soda and salt. Gradually add to the wet mixture.
+    - Stir in bananas.
+    - Spread into greased 15x10x1" baking pan.
+    - Bake at 350F for 20-25 minutes or until a toothpick inserted near the center comes out clean.
+    - Cool
+  Frosting:
+    - In a mixing bowl beat the cream cheese, butter, vanilla and icing sugar to achieve desired consistency.
+    - Frost cake.
+notes: |
+  This cake should be stored in the fridge.
+---

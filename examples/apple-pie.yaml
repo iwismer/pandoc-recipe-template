@@ -1,0 +1,34 @@
+---
+recipe_name: Apple Pie
+source: Jean Pare Pies Cookbook
+times:
+ - name: Oven Time
+   amount: 1 hour
+ - name: Prep Time
+   amount: 30 minutes
+ - name: Total Time
+   amount: 1 1/2 hours
+categories:
+  - Dessert
+  - Vegetarian
+yields: 8 Portions
+ingredients_split:
+  Filling:
+    - 9 inch uncooked pie shell
+    - 8 Apples (peeled, cored and cut up)
+    - 1/2 cup White Sugar
+    - 1/4 cup Brown Sugar
+    - 1/4 cup Flour
+    - 1/2 tsp Cinnamon
+  Topping:
+    - 2/3 cup Flour
+    - 6 tbsp Brown Sugar
+    - 1/4 cup Margarine or butter
+    - 1/4 tsp Cinnamon
+    - 1/4 tsp Salt
+steps:
+  - Preheat oven to 400F.
+  - Mix together the filling ingredients and place filling in pie shell.
+  - Mix next 4 ingredients for the topping.  Cut in butter/margarine until crumbly. Sprinkle over filling.
+  - Bake at 400°C for 10 minutes. Turn oven to 325°C and bake for another 50 minutes until apples are tender.
+---

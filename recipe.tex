@@ -1,0 +1,141 @@
+\documentclass{scrartcl}
+\usepackage{fancyhdr} % Required for custom headers
+\usepackage{lastpage} % Required to determine the last page for the footer
+\usepackage{parskip}
+\usepackage{multicol}
+% Margins
+% \topmargin=-0.5in
+% \leftmargin=-0.5in
+% \rightmargin=0.5in
+% \evensidemargin=0in
+% \oddsidemargin=-0.5in
+% \textwidth=7.5in
+% \textheight=9.0in
+\headsep=0.25in
+\usepackage{geometry}
+\geometry{letterpaper, left=0.5in, right=0.5in, top=1in, bottom=1.25in}
+
+% TYPOGRAPHY
+%--------------------------------
+\newcommand{\serifFont}{Source Serif Pro}
+\newcommand{\sansFont}{Source Sans Pro}
+\usepackage{fontspec}
+\usepackage{xunicode}
+\usepackage{xltxtra}
+
+% converts LaTeX specials (quotes, dashes etc.) to Unicode
+\defaultfontfeatures{Mapping=tex-text}
+\setromanfont [Ligatures={Common}, Numbers={OldStyle}]{\serifFont}
+\setmainfont[SmallCapsFeatures={LetterSpace=5,Letters=SmallCaps}]{\serifFont}
+\setsansfont{\sansFont}
+
+
+% HEADER AND FOOTER
+% -----------------
+\pagestyle{fancy}
+\renewcommand{\footrulewidth}{0.4pt}
+\lhead{$categories/first$}
+\chead{}
+\rhead{$recipe_name$}
+\lfoot{}
+\cfoot{}
+\rfoot{Page \thepage}
+%\title{}
+
+\begin{document}
+
+\begin{center}
+{\huge $recipe_name$}
+\end{center}
+
+\vspace{1cm}
+
+\begin{minipage}[t]{3in}
+  $if(oven_temp)$
+    \textbf{Oven Temp:} $oven_temp.amount$$$^o$$$oven_temp.unit$\\
+  $endif$
+  $for(times)$
+    \textbf{$it.name$:} $it.amount$\\
+  $endfor$
+  $if(yields)$
+    \textbf{Yields:} $yields$\\
+  $endif$
+\end{minipage}
+\hfill
+\begin{minipage}[t]{3in}
+  \begin{flushright}
+  \textbf{{\large Categories}}\\
+  $for(categories)$
+    $it$\\
+  $endfor$
+  \end{flushright}
+\end{minipage}
+
+
+\bigskip
+
+\begin{center}
+{\Large Ingredients}
+\end{center}
+% \vspace{-3mm}
+\hrule
+
+$if(ingredients)$
+  \begin{multicols}{2}
+    \begin{itemize}
+      $for(ingredients)$
+        \item $it$
+      $endfor$
+    \end{itemize}
+  \end{multicols}
+$elseif(ingredients_split)$
+  $for(ingredients_split/pairs)$
+  \textbf{\large $it.key$}
+    \begin{multicols}{2}
+      \begin{itemize}
+        $for(it.value)$
+          \item $it$
+        $endfor$
+      \end{itemize}
+    \end{multicols}
+  $endfor$
+$endif$
+
+\hrule
+\medskip
+
+\begin{center}
+{\Large Method}
+\end{center}
+
+$if(steps)$
+  $for(steps)$
+  $it$
+
+  \medskip
+  $endfor$
+$elseif(steps_split)$
+  $for(steps_split/pairs)$
+    \textbf{\large $it.key$}
+
+    \medskip
+    $for(it.value)$
+      $it$
+
+      \medskip
+    $endfor$
+  $endfor$
+$endif$
+
+$if(notes)$
+  \begin{center}
+  {\Large Notes}
+  \end{center}
+  $notes$
+$endif$
+
+$if(source)$
+  \vfill
+  \textbf{Recipe Source:} $source$
+$endif$
+\end{document}
