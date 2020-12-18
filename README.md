@@ -32,7 +32,7 @@ This input format is _loosely_ based on the [Open Recipe Format](https://github.
 
 ## Compiling
 
-In order to compile the recipes you need to have [Pandoc](https://pandoc.org/), XeLaTex and make. Simply create a folder called `yaml` in the same folder as the makefile, then place all your recipes in there. When you run `make` all the recipes will be compiled into a folder called `pdf`.
+In order to compile the recipes you need to have [Pandoc](https://pandoc.org/), XeLaTex and make. I also have set the fonts to be `Source Sans Pro` and `Source Serif Pro` because I like them. Feel free to modify them in the template if you don't have them installed/don't want to install them. Simply create a folder called `yaml` in the same folder as the makefile, then place all your recipes in there. When you run `make` all the recipes will be compiled into a folder called `pdf`.
 
 # Known issues
 
